@@ -9,6 +9,7 @@ Esse código é uma página HTML que representa um formulário para realizar o c
 - HTML5: linguagem de marcação para estruturação do conteúdo da página.
 - CSS3: linguagem de formatação que estiliza a página, aplicando cores, fontes, layouts, etc.
 - Bootstrap5: é um framework que oferece componentes e estilos prontos para construção de interfaces web responsivas e modernas.
+- strict mode: utilizado para contrução do código para consumo de API de endereço
 
 ## Fontes consultadas
 
