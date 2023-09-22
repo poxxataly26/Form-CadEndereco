@@ -11,3 +11,9 @@ Esse código é uma página HTML que representa um formulário para realizar o c
 ## Fontes consultadas
 
 [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) Pegar codigo para inserir
+
+## Autores
+
+[Talyta](https://github.com/poxxataly26/portfolio-pessoal) 
+
+<img src="https://github.com/poxxataly26/portfolio-pessoal/blob/main/Img/foto.jpeg" width="100px">
