@@ -31,7 +31,8 @@ const pesquisarCep = async() => {
         const addres = await dados.json();
 
         if(addres.hasOwnProperty('erro')){
-            
+            alert('CEP não encontrado');
+
         }
 
     }
