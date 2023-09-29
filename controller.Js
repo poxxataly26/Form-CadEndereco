@@ -30,5 +30,9 @@ const pesquisarCep = async() => {
         const dados = await fetch(url); //esperar/aguardar
         const addres = await dados.json();
 
+        if(addres.hasOwnProperty('erro')){
+            
+        }
+
     }
 }
