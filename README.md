@@ -1,8 +1,21 @@
 # Form-CadEndereco
 
+## Introdução
+Esse código é uma página HTML que representa um formulário para realizar o cadastro de um endereço. O formulário possui campos para preencher o CEP, endereço, número, bairro, cidade e estado. Também é utilizado o framework Bootstrap5 para estilizar a página. Ao clicar no botão "Cadastrar", ainda não há uma ação definida para processar os dados inseridos no formulário.
+
 ## Descrição 
 
-Esse código é uma página HTML que representa um formulário para realizar o cadastro de um endereço. O formulário possui campos para preencher o CEP, endereço, número, bairro, cidade e estado. Também é utilizado o framework Bootstrap5 para estilizar a página. Ao clicar no botão "Cadastrar", ainda não há uma ação definida para processar os dados inseridos no formulário.
+Este código é responsável por consumir a API do ViaCep e preencher um formulário com os dados do endereço a partir do CEP inserido. Ele começa com a declaração "use strict", que ativa o modo restrito do JavaScript. 
+
+Em seguida, há uma função chamada "limparFormulario", que limpa os campos do formulário. 
+
+Temos também a função "eNumero", que recebe um número e testa se ele contém apenas dígitos, usando uma expressão regular. A função "cepValido" verifica se o CEP possui o tamanho correto (8 dígitos) e se é válido, utilizando a função "eNumero" anteriormente definida. 
+
+A função "preencherFormulario" recebe um objeto com os dados do endereço e preenche os campos do formulário com as informações correspondentes. 
+
+Por fim, a função "pesquisarCep" é responsável por realizar a busca no ViaCep a partir do CEP inserido. Ela chama a função "limparFormulario", constrói a URL da API a partir do CEP informado, verifica se o CEP é válido e, se for, aguarda o fetch da URL para obter os dados do endereço. Em seguida, verifica se a propriedade "erro" está presente no objeto retornado (o que significa que o CEP não foi encontrado) e exibe uma mensagem de erro, ou chama a função "preencherFormulario" com os dados encontrados. 
+
+O código termina adicionando um evento "focusout" ao campo do CEP, que dispara a função "pesquisarCep" quando o usuário sai do campo.
 
 ### Tecnologias utilizadas
 
