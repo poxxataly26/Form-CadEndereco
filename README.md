@@ -21,22 +21,25 @@ O código termina adicionando um evento "focusout" ao campo do CEP, que dispara 
 
 ## Recursos de Javascript utilizados nesse projeto
 
-- hasOwnProperty - é um método de objeto em JavaScript que verifica se um determinado objeto tem uma propriedade com o nome especificado. Ele retorna um valor booleano true se o objeto tiver a propriedade especificada e false se não tiver. Isso é útil para verificar se uma propriedade pertence diretamente ao objeto ou se é herdada de seu protótipo.
+- `hasOwnProperty` - é um método de objeto em JavaScript que verifica se um determinado objeto tem uma propriedade com o nome especificado. Ele retorna um valor booleano true se o objeto tiver a propriedade especificada e false se não tiver. Isso é útil para verificar se uma propriedade pertence diretamente ao objeto ou se é herdada de seu protótipo.
 
-- fetch -  é uma API que permite recuperar dados de um servidor web usando requisições HTTP, sem precisar recarregar a página inteira. É muito usada em aplicações web modernas que usam JavaScript para criar interfaces de usuário dinâmicas.
+- `fetch` -  é uma API que permite recuperar dados de um servidor web usando requisições HTTP, sem precisar recarregar a página inteira. É muito usada em aplicações web modernas que usam JavaScript para criar interfaces de usuário dinâmicas.
 
-- async - é uma funcionalidade do JavaScript que permite escrever código assíncrono de forma síncrona, facilitando o controle de fluxo em operações,  ela permite tratar erros de forma clara e eficiente, facilitando o desenvolvimento de aplicações assíncronas em JavaScript.
+- `async` - é uma funcionalidade do JavaScript que permite escrever código assíncrono de forma síncrona, facilitando o controle de fluxo em operações,  ela permite tratar erros de forma clara e eficiente, facilitando o desenvolvimento de aplicações assíncronas em JavaScript.
 
-- use strict - é uma diretiva de JavaScript que restringe certas ações não seguras que o código pode executar e torna mais fácil detectar erros comuns. 
+- `use strict` - é uma diretiva de JavaScript que restringe certas ações não seguras que o código pode executar e torna mais fácil detectar erros comuns. 
 
-- test() - executa uma busca por uma correspondência entre uma expressão regular e uma string. Retorna true ou false.
+- `test()` - executa uma busca por uma correspondência entre uma expressão regular e uma string. Retorna true ou false.
+
+- `strict mode` - é uma funcionalidade do JavaScript que impõe um conjunto de regras mais rigorosas para tornar a linguagem mais previsível e segura. Utilizado para contrução do código para consumo de API de endereço.
 
 ### Tecnologias utilizadas
 
 - HTML5: linguagem de marcação para estruturação do conteúdo da página.
 - CSS3: linguagem de formatação que estiliza a página, aplicando cores, fontes, layouts, etc.
 - Bootstrap5: é um framework que oferece componentes e estilos prontos para construção de interfaces web responsivas e modernas.
-- strict mode: utilizado para contrução do código para consumo de API de endereço
+- git: é um sistema de controle de versionamento de código. Ele é usado para gerenciar arquivos de texto de um projeto em desenvolvimento e acompanhar suas alterações ao longo do tempo. 
+- GitHub: pode criar seu repositório, compartilhar seu trabalho com outros, receber contribuições ou corrigir problemas em projetos de outras pessoas.
 
 ## Fontes consultadas
 
