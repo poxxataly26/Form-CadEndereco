@@ -28,10 +28,10 @@ O código termina adicionando um evento "focusout" ao campo do CEP, que dispara 
 
 ## Fontes consultadas
 
-[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) - Página para fazer os códigos
-[async](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function) - Define uma função assíncrona
-[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) - Fornece uma interface JavaScript para acessar e manipular
-[hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) - método que retorna objeto 
+[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) - Página para fazer os códigos  
+[async](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function) - Define uma função assíncrona  
+[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) - Fornece uma interface JavaScript para acessar e manipular  
+[hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) - método que retorna objeto   
 
 ## Autores
 
