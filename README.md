@@ -7,7 +7,7 @@ Esse código é uma página HTML que representa um formulário para realizar o c
 
 ## Descrição 
 
-Este código é responsável por consumir a API do ViaCep e preencher um formulário com os dados do endereço a partir do CEP inserido. Ele começa com a declaração "use strict", que ativa o modo restrito do JavaScript. 
+Este código é responsável por consumir a API do [ViaCep](https://viacep.com.br/) e preencher um formulário com os dados do endereço a partir do CEP inserido. Ele começa com a declaração "use strict", que ativa o modo restrito do JavaScript. 
 
 Em seguida, há uma função chamada "limparFormulario", que limpa os campos do formulário. 
 
@@ -19,6 +19,18 @@ Por fim, a função "pesquisarCep" é responsável por realizar a busca no ViaCe
 
 O código termina adicionando um evento "focusout" ao campo do CEP, que dispara a função "pesquisarCep" quando o usuário sai do campo.
 
+## Recursos de Javascript utilizados nesse projeto
+
+- hasOwnProperty - é um método de objeto em JavaScript que verifica se um determinado objeto tem uma propriedade com o nome especificado. Ele retorna um valor booleano true se o objeto tiver a propriedade especificada e false se não tiver. Isso é útil para verificar se uma propriedade pertence diretamente ao objeto ou se é herdada de seu protótipo.
+
+- fetch -  é uma API que permite recuperar dados de um servidor web usando requisições HTTP, sem precisar recarregar a página inteira. É muito usada em aplicações web modernas que usam JavaScript para criar interfaces de usuário dinâmicas.
+
+- async - é uma funcionalidade do JavaScript que permite escrever código assíncrono de forma síncrona, facilitando o controle de fluxo em operações,  ela permite tratar erros de forma clara e eficiente, facilitando o desenvolvimento de aplicações assíncronas em JavaScript.
+
+- use strict - é uma diretiva de JavaScript que restringe certas ações não seguras que o código pode executar e torna mais fácil detectar erros comuns. 
+
+- test() - executa uma busca por uma correspondência entre uma expressão regular e uma string. Retorna true ou false.
+
 ### Tecnologias utilizadas
 
 - HTML5: linguagem de marcação para estruturação do conteúdo da página.
@@ -28,10 +40,7 @@ O código termina adicionando um evento "focusout" ao campo do CEP, que dispara 
 
 ## Fontes consultadas
 
-[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) - Página para fazer os códigos  
-[async](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function) - Define uma função assíncrona  
-[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) - Fornece uma interface JavaScript para acessar e manipular  
-[hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) - método que retorna objeto   
+[Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/) - Página para fazer os códigos   
 
 ## Autores
 
