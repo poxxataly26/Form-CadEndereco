@@ -2,10 +2,14 @@
 
 ![image info](https://github.com/poxxataly26/Form-CadEndereco/blob/main/Img/Gif.gif)
 
+## Descrição 4 fazes
+
+![image info]()
+
 ## Introdução
 Esse código é uma página HTML que representa um formulário para realizar o cadastro de um endereço. O formulário possui campos para preencher o CEP, endereço, número, bairro, cidade e estado. Também é utilizado o framework Bootstrap5 para estilizar a página. Ao clicar no botão "Cadastrar", ainda não há uma ação definida para processar os dados inseridos no formulário.
 
-## Descrição 
+## Descrição
 
 Este código é responsável por consumir a API do [ViaCep](https://viacep.com.br/) e preencher um formulário com os dados do endereço a partir do CEP inserido. Ele começa com a declaração "use strict", que ativa o modo restrito do JavaScript. 
 
