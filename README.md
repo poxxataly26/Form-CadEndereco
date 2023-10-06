@@ -6,6 +6,18 @@
 
 ![image info](https://github.com/poxxataly26/Form-CadEndereco/blob/main/Img/funcionalidade-1.gif)
 
+## Funcionalidade 2
+
+![image info]()
+
+## Funcionalidade 3
+
+![image info]()
+
+## Funcionalidade 4
+
+![image info]()
+
 ## Introdução
 Esse código é uma página HTML que representa um formulário para realizar o cadastro de um endereço. O formulário possui campos para preencher o CEP, endereço, número, bairro, cidade e estado. Também é utilizado o framework Bootstrap5 para estilizar a página. Ao clicar no botão "Cadastrar", ainda não há uma ação definida para processar os dados inseridos no formulário.
 
